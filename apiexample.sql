@@ -1,6 +1,6 @@
 create user spring_smartdev_api with password 'smartdev123';
 create database apiexample with template=template0 owner=spring_smartdev_api;
-\connect expensetrackerdb;
+\connect apiexample;
 alter default privileges grant all on tables to apiexample;
 alter default privileges grant all on sequences to apiexample;
 
